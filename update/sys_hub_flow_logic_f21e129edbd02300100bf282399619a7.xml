@@ -1,59 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
     <sys_hub_flow_logic action="INSERT_OR_UPDATE">
-        <block display_value="">1e68f08ddb502300100bf282399619ce</block>
+        <block display_value="">ba1e129edbd02300100bf282399619a5</block>
         <comment/>
         <connected_to/>
         <display_text/>
         <flow display_value="NeedIt Fulfillment">d5c29c70dbd02300100bf2823996199b</flow>
         <inputs/>
         <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
-        <order>3</order>
+        <order>3.2</order>
         <outputs_assigned/>
         <outputs_to_assign/>
-        <parent_ui_id/>
+        <parent_ui_id>2fdddd67-cb93-44f8-84a9-3e1e46034b83</parent_ui_id>
         <sys_class_name>sys_hub_flow_logic</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-31 11:32:14</sys_created_on>
-        <sys_id>1a68f08ddb502300100bf282399619d0</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_created_on>2018-09-04 16:08:57</sys_created_on>
+        <sys_id>f21e129edbd02300100bf282399619a7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_hub_flow_logic_1a68f08ddb502300100bf282399619d0</sys_update_name>
-        <sys_updated_by>fred.luddy</sys_updated_by>
-        <sys_updated_on>2018-08-31 13:45:14</sys_updated_on>
-        <ui_id>a3625a2e-4c18-4eae-b9ee-92b43b06d978</ui_id>
+        <sys_update_name>sys_hub_flow_logic_f21e129edbd02300100bf282399619a7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-09-04 16:08:57</sys_updated_on>
+        <ui_id>19697de8-aac3-40dd-8a70-790de75e2d10</ui_id>
         <workflow_inputs/>
         <workflow_reference/>
     </sys_hub_flow_logic>
-    <sys_variable_value action="delete_multiple" query="document_key=1a68f08ddb502300100bf282399619d0"/>
+    <sys_variable_value action="delete_multiple" query="document_key=f21e129edbd02300100bf282399619a7"/>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
-        <document_key>1a68f08ddb502300100bf282399619d0</document_key>
+        <document_key>f21e129edbd02300100bf282399619a7</document_key>
         <order>20</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-31 11:32:14</sys_created_on>
-        <sys_id>2268f08ddb502300100bf282399619d5</sys_id>
+        <sys_created_on>2018-09-04 16:08:57</sys_created_on>
+        <sys_id>3a1e129edbd02300100bf282399619aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-31 11:32:14</sys_updated_on>
-        <value>{{2c17c6bc-39f3-4e81-8a5c-0db237a55942.approval_state}}=approved</value>
+        <sys_updated_on>2018-09-04 16:08:57</sys_updated_on>
+        <value>{{Created_1.current.u_request_type}}=legal</value>
         <variable display_value="">9a5f5105c32632002841b63b12d3ae46</variable>
     </sys_variable_value>
     <sys_variable_value action="INSERT_OR_UPDATE">
         <document>sys_hub_flow_logic</document>
-        <document_key>1a68f08ddb502300100bf282399619d0</document_key>
+        <document_key>f21e129edbd02300100bf282399619a7</document_key>
         <order>10</order>
         <sys_class_name>sys_variable_value</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2018-08-31 11:32:14</sys_created_on>
-        <sys_id>e668f08ddb502300100bf282399619d5</sys_id>
+        <sys_created_on>2018-09-04 16:08:57</sys_created_on>
+        <sys_id>fa1e129edbd02300100bf282399619aa</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2018-08-31 11:32:14</sys_updated_on>
-        <value>Request Approved</value>
+        <sys_updated_on>2018-09-04 16:08:57</sys_updated_on>
+        <value>Legal request</value>
         <variable display_value="">f0af19c1c32632002841b63b12d3aea3</variable>
     </sys_variable_value>
 </record_update>
